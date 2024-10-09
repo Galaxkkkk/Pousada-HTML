@@ -4,20 +4,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="navBar">
-      <img src="" alt="LogoDaEmpresa">
-      <a href="#">Home</a>
-      <a href="#">Sobre</a>
-      <a href="#">Estadia</a>
-      <a href="#">Serviços</a>
-      <a href="#">Contato</a>
-      <a href="#">Cadastro</a>
-      <a href="#">Login</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="img/logo.png" width="100px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="redirecionamentos/sobre.html">Sobre <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Estadias  <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Serviços <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Contatos <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      <div class="butao">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cadastro</button>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+      </div>
     </div>
-  </header>
+  </nav>
+  <section>
+    <div class="imaugi">
+      <img src="img/pusada.jpg" width="653px" height="404">
+      <div class="teixto">
+        <h1><strong>Royal Pousadas</strong></h1>
+        <br>
+        <p>Bem-vindo à nossa pousada, um refúgio encantador onde conforto e natureza se encontram. Situada em meio a paisagens deslumbrantes, oferecemos acomodações aconchegantes, café da manhã caseiro e uma variedade de atividades ao ar livre. Delve na tranquilidade do nosso espaço e descubra o ultimate relaxamento que você merece. Venha viver momentos inesquecíveis!</p>
+      </div>
+    </div>
+  </section>
 </body>
 </html>

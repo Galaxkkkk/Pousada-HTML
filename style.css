@@ -7,13 +7,46 @@
   font-family: "Poppins", sans-serif;
 }
 
-.navBar{
+body{
+  background-color: rgba(63, 209, 112, 0.7);
+}
+
+.nav-item a{
+  color: black;
+}
+
+.navbar a{
+  margin: 10px;
+  color: black;
+}
+
+.bg-light {
+  background-color: rgba(243, 243, 242, 1) !important;
+}
+
+.butao{
   display: flex;
-  justify-content: space-around;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.imaugi{
+  margin: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.imaugi img{
+  border-radius: 30px;
+}
+
+.teixto{
+  margin: 60px;
+  color: white;
   flex-wrap: wrap;
 }
 
-.navBar a{
-  text-decoration: none;
-  color: rgb(14, 14, 14);
+.butao button{
+  margin: 10px;
 }
