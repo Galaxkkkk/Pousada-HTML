@@ -23,10 +23,6 @@ body{
   color: black;
 }
 
-.bg-light {
-  background-color: rgba(243, 243, 242, 1) !important;
-}
-
 .butao{
   display: flex;
   flex-wrap: nowrap;
@@ -168,4 +164,13 @@ section h1{
 
 section h1{
   color: white;
+}
+
+.bg-light {
+  background-color: rgba(243, 243, 242, 1) !important;
+}
+
+#conteiner{
+  background-color: white !important;
+  color: black !important;
 }
