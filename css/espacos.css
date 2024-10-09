@@ -180,3 +180,31 @@ section h1{
   border-color: black;
   color: black;
 }
+
+.filinhos{
+  margin: 20px;
+  width: 500px;
+  height: 300px;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 30px;
+  text-align: justify;
+}
+
+.imggg{
+  margin: 10px;
+  width: 475px;
+  height: 225px;
+  border-radius: 15px;
+}
+
+.imgg{
+  margin: 10px;
+  width: 225px;
+  height: 225px;
+  border-radius: 15px;
+}
+
+.filinhos p{
+  margin: 10px;
+}
