@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color: rgba(63, 209, 112, 0.7);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.nav-item a{
+  color: black;
+}
+
+.navbar a{
+  margin: 10px;
+  color: black;
+}
+
+.bg-light {
+  background-color: rgba(243, 243, 242, 1) !important;
+}
+
+.butao{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.imaugi{
+  margin: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.imaugi img{
+  border-radius: 30px;
+}
+
+.teixto{
+  margin: 60px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.butao button{
+  margin: 10px;
+}
+
+section h1{
+  margin: 20px;
+}
+
+.PaiDeTodos{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.filhos{
+  margin: 20px;
+  width: 300px;
+  height: 480px;
+  background-color: white;
+  border-radius: 30px;
+  text-align: justify;
+}
+
+.imaugim-cafe{
+  background-color: aquamarine;
+  background-image: url(../img/fundo\ café.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+.imaugim-almoco{
+  background-color: aquamarine;
+  background-image: url(../img/fundo\ almoco.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: cover;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+.imaugim-tarde{
+  background-color: aquamarine;
+  background-image: url(../img/fundo\ tarde.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: cover;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+.imaugim-janta{
+  background-color: aquamarine;
+  background-image: url(../img/fundo\ janta.jpeg);
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: cover;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  color: white
+}
+
+.imaugim-2{
+  background-color: aquamarine;
+  background-image: url(../img/fundo\ SPA.jpeg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  padding-top: 135px;
+  margin: 10px;
+  height: 315px;
+  text-align: center;
+  color: white;
+}
+
+.imaugim-3{
+  background-color: aquamarine;
+  background-image: url(../img/fundo\ sauna.jpeg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  padding-top: 135px;
+  margin: 10px;
+  height: 315px;
+  text-align: center;
+  color: white;
+}
+
+.teixtobeutifull{
+  padding-left: 20px;
+  text-align: justify;
+}

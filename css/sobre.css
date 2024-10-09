@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   list-style: none;
   font-family: "Poppins", sans-serif;
 }
 
 body{
   background-color: rgba(63, 209, 112, 0.7);
+  background-image: url(../img/fundo\ sobre.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
 }
 
 .nav-item a{
@@ -70,7 +74,43 @@ section h1{
   text-align: justify;
 }
 
-.imaugim{
+.imaugim-cafe{
+  background-color: aquamarine;
+  background-image: url(../img/fundo\ café.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: center center;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.imaugim-almoco{
+  background-color: aquamarine;
+  background-image: url(../img/fundo\ almoco.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.imaugim-tarde{
+  background-color: aquamarine;
+  background-image: url(../img/fundo\ tarde.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.imaugim-janta{
   background-color: aquamarine;
   border-radius: 30px;
   margin: 10px;
@@ -81,12 +121,13 @@ section h1{
 .imaugim-2{
   background-color: aquamarine;
   border-radius: 30px;
-  padding-top: 150px;
+  padding-top: 135px;
   margin: 10px;
   height: 315px;
   text-align: center;
 }
 
 .teixtobeutifull{
-  padding-left: 55px;
+  padding-left: 20px;
+  text-align: justify;
 }
